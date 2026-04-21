@@ -1,0 +1,12 @@
+---
+title: "Example Home Page"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+For a website, the file `index.html` acts as the "Home Page". If your website is stored at `www.website.com/path-to-page/`, and your website files are stored in your directory `~/website/`, then `~/website/index.html` is what the browser looks for when it visits `www.website.com/path-to-page/`.
+
+Other pages, such as [other.html](other.html) would be accessed through URLs like `www.website.com/path-to-page/other.html` or via links like [this](other.html), which was created with the Markdown code `[this](other.html)`.

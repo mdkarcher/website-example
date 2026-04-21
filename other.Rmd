@@ -1,0 +1,10 @@
+---
+title: "Example Side Page"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+For a website, any number of pages can be created. Depending on your directory structure, it is very easy to link between them. This is a [link](index.html) back to the home page, and it was created with the Markdown code `[link](index.html)`.
